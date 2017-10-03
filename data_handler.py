@@ -79,4 +79,4 @@ class Handler:
         data['Users'][self.working_user] = {"Master" : master_pwd}
         Handler.save_to_file(self, json.dumps(data))
 
-        return ("Account successfully created")
+        return ("Account successfully created.")
